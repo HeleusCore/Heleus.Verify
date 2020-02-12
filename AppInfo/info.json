@@ -1,0 +1,12 @@
+{
+  "fullname": "Heleus Verify",
+  "name": "Verify",
+  "description": "Powerful data verification.",
+  "developer": "Heleus Core",
+  "domain": "heleuscore.com",
+  "link": "https://heleuscore.com/verify/",
+  "package": "com.heleuscore.verify",
+  
+  "primarycolor":"100,30,130",
+  "secondarycolor":"70,0,120"
+}

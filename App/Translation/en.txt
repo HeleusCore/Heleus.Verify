@@ -1,0 +1,105 @@
+﻿App.Name: Verify
+App.FullName: Heleus Verify
+App.Developer: Heleus Core
+App.Description: Powerful data verification
+App.Link: https://heleuscore.com/verify/
+App.Version: 0.9.0 (build 1)
+App.Scheme: heleusverify
+
+## PAGES
+#
+
+VerifyPage.Title: Heleus Verify
+VerifyPage.Search: Search
+VerifyPage.TransactionId: Verification ID
+VerifyPage.VerifyFile: Verify File
+VerifyPage.ViewFiles: View Files
+VerifyPage.SearchButton: Start Search
+VerifyPage.SearchInfo: You can search for verifications. Just type the correct verification id in the field above and search for it.
+VerifyPage.Link: Open Download Link
+VerifyPage.VerifyLink: Open Verification Link
+VerifyPage.CopyVerifyLink: Copy Verification Link
+VerifyPage.Account: View Account Profile
+VerifyPage.VerifyCopied: The verification link was copied to the clipboard.
+VerifyPage.Success: The selected file is valid. The verification was successfull.
+VerifyPage.Failure: The verification failed.
+VerifyPage.YourValidations: Your Verifications
+VerifyPage.New: Add New Verification
+VerifyPage.View: Available Verifications
+VerifyPage.ValidationNotFound: Requested verification id not found.
+
+VerificationFilesPage.Title: Verification Files
+VerificationFilesPage.Verify: Verify File
+VerificationFilesPage.OpenLink: Open Link
+
+AddVerificationPage.Title: Add Verification
+AddVerificationPage.VerifyInfo: The Heleus Verify Service is a simple and fast way to store file and data verification online. And you can easily share the verification with other people or embed it directly on your website.
+AddVerificationPage.OpenLink: Open Link
+AddVerificationPage.Info: Verification
+AddVerificationPage.Description: Description
+AddVerificationPage.Link: Download Link (optional)
+AddVerificationPage.DescriptionStatus: - Set a description
+AddVerificationPage.LinkStatus: - Set an optional download link
+AddVerificationPage.Files: Files
+AddVerificationPage.AddFile: Add File
+AddVerificationPage.FilesStatus: - Add one or more files
+AddVerificationPage.Success: The verification link ({0}) was copied to the clipboard. Would you like to see the result?
+AddVerificationPage.Submit: Save Verification
+
+VerificationFilePage.Title: Verification File
+VerificationFilePage.File: File
+VerificationFilePage.Select: Choose File
+VerificationFilePage.Link: .AddVerificationPage.Link
+VerificationFilePage.LinkStatus: .AddVerificationPage.LinkStatus
+VerificationFilePage.FileStatus: - Choose a file
+VerificationFilePage.Submit: Add File
+VerificationFilePage.Wait: Calculating hash. This may take a while.
+
+VerificationsPage.Title: Verifications
+VerificationsPage.RecentTransactions: Recent Verifications
+VerificationsPage.RefreshButton: Refresh
+VerificationsPage.MoreButton: Load More Verifications
+VerificationsPage.NoTransactions: No verifications available
+
+## VIEWS
+#
+
+VerifyFileView.Filename: Filename
+VerifyFileView.HashType: Hash type
+VerifyFileView.Hash: File hash
+VerifyFileView.Link: Download Link
+VerifyFileView.Size: File size
+VerifyFileView.SizeInfo: {0} bytes
+
+HashTypes.sha512: SHA512
+
+VerifyView.Description: Description
+VerifyView.Link: Link
+VerifyView.VerifyId: .VerifyPage.TransactionId
+VerifyView.VerifyLink: Verification Link
+VerifyView.Account: .Common.AccountId
+VerifyView.Date: Date
+
+
+VerifyTransactionView.Date: .Common.Date
+VerifyTransactionView.TransactionId: .VerifyView.VerifyId
+
+
+## ENUMS
+#
+
+
+VerifyUserCodes: Verify Service error: {0} (Code {1}).
+VerifyUserCodes.None: Ok 
+VerifyUserCodes.InvalidAttachementIndex: Invalid attachement index
+VerifyUserCodes.InvalidAttachementName: Invalid attachement name
+VerifyUserCodes.InvalidJsonFizeSize: Verify data is too big
+VerifyUserCodes.InvalidAttachementCount: Invalid attachement count.
+VerifyUserCodes.InvalidJson: Verify data is invalid
+
+
+## LINKS
+#
+
+
+Link.Verify: https://heleuscore.com/app#verify

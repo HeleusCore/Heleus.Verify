@@ -1,0 +1,68 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Verify.App", "App\Verify.App.shproj", "{98E1B380-87B9-4F3E-9579-0ECE0ED21E32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{9DC79C97-ECFB-4264-A822-435EF2D7A0B7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "..\Heleus.AppBase\Base\Shared\Shared.shproj", "{87DA3F85-DE94-4F50-93C8-DD1586606C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verify.GTK", "Platforms\GTK\Verify.GTK.csproj", "{F959CAB2-AC84-4DFA-950E-AC6CA0DB0BD4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.GTK", "..\Heleus.AppBase\Base\Shared.GTK\Shared.GTK.shproj", "{135C177D-F6E2-46A9-9719-1C9F56138022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heleus", "Heleus", "{C300CAF8-3C84-4E6C-8A0F-9376791E0A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heleus.Base", "..\Heleus.Base\Heleus.Base.csproj", "{214C950E-1777-41A3-892B-CAB0DBA8FF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heleus.ProfileServiceBase", "..\Heleus.Services\ProfileServiceBase\Heleus.ProfileServiceBase.csproj", "{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verify.CLI", "Platforms\cli\Verify.CLI.csproj", "{05B06D61-1B0B-4875-BAB1-6C0AA15BB9D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heleus.VerifyServiceBase", "..\Heleus.Services\VerifyServiceBase\Heleus.VerifyServiceBase.csproj", "{63EF76A0-470A-4E65-A52C-A627F9D54F66}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared.CLI", "..\Heleus.AppBase\Base\Shared.CLI\Shared.CLI.shproj", "{EE84A9EF-DC82-4495-9CF6-581F43D1082A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		AppStore|Any CPU = AppStore|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F959CAB2-AC84-4DFA-950E-AC6CA0DB0BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F959CAB2-AC84-4DFA-950E-AC6CA0DB0BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F959CAB2-AC84-4DFA-950E-AC6CA0DB0BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F959CAB2-AC84-4DFA-950E-AC6CA0DB0BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214C950E-1777-41A3-892B-CAB0DBA8FF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214C950E-1777-41A3-892B-CAB0DBA8FF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214C950E-1777-41A3-892B-CAB0DBA8FF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214C950E-1777-41A3-892B-CAB0DBA8FF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{05B06D61-1B0B-4875-BAB1-6C0AA15BB9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B06D61-1B0B-4875-BAB1-6C0AA15BB9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B06D61-1B0B-4875-BAB1-6C0AA15BB9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B06D61-1B0B-4875-BAB1-6C0AA15BB9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B06D61-1B0B-4875-BAB1-6C0AA15BB9D1}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B06D61-1B0B-4875-BAB1-6C0AA15BB9D1}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{63EF76A0-470A-4E65-A52C-A627F9D54F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EF76A0-470A-4E65-A52C-A627F9D54F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EF76A0-470A-4E65-A52C-A627F9D54F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EF76A0-470A-4E65-A52C-A627F9D54F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63EF76A0-470A-4E65-A52C-A627F9D54F66}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EF76A0-470A-4E65-A52C-A627F9D54F66}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87DA3F85-DE94-4F50-93C8-DD1586606C13} = {9DC79C97-ECFB-4264-A822-435EF2D7A0B7}
+		{135C177D-F6E2-46A9-9719-1C9F56138022} = {9DC79C97-ECFB-4264-A822-435EF2D7A0B7}
+		{214C950E-1777-41A3-892B-CAB0DBA8FF89} = {C300CAF8-3C84-4E6C-8A0F-9376791E0A59}
+		{25AB7A5D-6AE9-4596-AFA2-4E4CE297F846} = {C300CAF8-3C84-4E6C-8A0F-9376791E0A59}
+		{63EF76A0-470A-4E65-A52C-A627F9D54F66} = {C300CAF8-3C84-4E6C-8A0F-9376791E0A59}
+		{EE84A9EF-DC82-4495-9CF6-581F43D1082A} = {9DC79C97-ECFB-4264-A822-435EF2D7A0B7}
+	EndGlobalSection
+EndGlobal
