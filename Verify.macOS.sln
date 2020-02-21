@@ -37,8 +37,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heleus.VerifyServiceBase", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heleus.ProfileServiceBase", "..\Heleus.Services\ProfileServiceBase\Heleus.ProfileServiceBase.csproj", "{CE6D21F9-F9ED-4613-A2F0-099256743346}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{01BD0271-E868-47A0-9795-310F0A35609D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,18 +131,6 @@ Global
 		{CE6D21F9-F9ED-4613-A2F0-099256743346}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{CE6D21F9-F9ED-4613-A2F0-099256743346}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{CE6D21F9-F9ED-4613-A2F0-099256743346}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Release|iPhone.Build.0 = Release|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{01BD0271-E868-47A0-9795-310F0A35609D}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{87DA3F85-DE94-4F50-93C8-DD1586606C13} = {9DC79C97-ECFB-4264-A822-435EF2D7A0B7}

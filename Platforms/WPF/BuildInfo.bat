@@ -1,3 +1,3 @@
 SET _SHORTNAME=Verify
-SET _EXEC=verify
+SET _EXEC=HeleusVerify
 SET _VERSION="0.9.0"
